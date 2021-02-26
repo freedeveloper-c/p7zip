@@ -5,13 +5,16 @@ A new p7zip fork with additional codecs and improvements (forked from https://so
 https://github.com/freedeveloper-c/p7zip
 
 # install
-Using makefile directly:
+1、Using makefile directly:
+```
    cd p7zip
    make 7z (OR make 7za OR make 7zr OR make sfx)
-
-OR Using cmake directly:
+```
+2、OR Using cmake directly:
+```
    cd p7zip/CPP/7zip/CMAKE/
    mkdir build
    cd build
    cmake ..
    make 
+```
